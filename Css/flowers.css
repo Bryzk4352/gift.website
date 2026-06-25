@@ -234,53 +234,24 @@ h1 {
 
 @media (max-width: 768px) {
 
+    body {
+        overflow-x: hidden;
+    }
+
     .sticky {
-        width: 130px;
-        min-height: 100px;
-
-        padding: 10px;
+        position: static;
+        width: 80%;
+        min-height: auto;
+        margin: 15px auto;
+        transform: none !important;
     }
 
-    .sticky p {
-        font-size: 0.9rem;
+    .tulips_container {
+        margin: 20px 0;
     }
 
-    .note1 {
-        left: 10px;
-        top: 120px;
-    }
-
-    .note2 {
-        left: 10px;
-        top: 320px;
-    }
-
-    .note3 {
-        right: 10px;
-        top: 120px;
-    }
-
-    .note4 {
-        right: 10px;
-        top: 320px;
-    }
-
-    .tulips_container img {
-        width: 150px;
-    }
-
-    h1 {
-        font-size: 3rem;
-    }
-
-    #tulipsText {
-        font-size: 2rem;
-    }
-
-    .back {
-        width: 140px;
-        height: 55px;
-        font-size: 2rem;
-
+    .button_holder {
+        margin-top: 30px;
+        margin-bottom: 30px;
     }
 }

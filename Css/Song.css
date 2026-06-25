@@ -162,40 +162,18 @@ audio {
 
 @media (max-width: 600px) {
 
-    .Song-Container {
-
-        width: 90%;
-        height: auto;
-        
-        flex-direction: column;
-
-        text-align: center;
-
-        padding: 20px;
-
-    }
-    .Song-Container img {
-
-        width: 180px;
-        height: 180px;
-    }
-
-    .Song-Title {
-        font-size: 1.3rem;
-    }
-
-    audio {
-        width: 100%;
-    }
-
-    @media (max-width: 600px){
-
     h1{
         font-size: 2rem;
+        padding: 0 15px;
+        line-height: 1.2;
     }
 
-    .Song-Container{
+    .Song-Container {
         width: 85%;
+        height: auto;
+        flex-direction: column;
+        text-align: center;
+        padding: 20px;
     }
 
     .Song-Container img{
@@ -216,6 +194,8 @@ audio {
         height: 50px;
         font-size: 1.5rem;
     }
-}
 
+    .button_holder{
+        margin-top: 25px;
+    }
 }
