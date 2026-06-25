@@ -15,7 +15,7 @@ const interval = setInterval(()=>{
     status.style.color= '#22c553';
 
        setTimeout(() => {
-            window.location.href = "Home.html";
+            window.location.href = "home.html";
         }, 1000);
 
     
